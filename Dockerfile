@@ -8,7 +8,7 @@ MAINTAINER Masatoshi Hayashi <literalice@monochromeroad.com>
 ADD daftaupe-hugo-epel-7.repo /etc/yum.repos.d/
 
 RUN yum -y install hugo && \
-    yum -y clean all && \
+    yum -y clean all
 
 RUN hugo version
 
