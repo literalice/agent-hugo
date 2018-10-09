@@ -2,7 +2,7 @@
 FROM openshift/jenkins-slave-base-centos7
 
 # Inform users who's the maintainer of this builder image
-MAINTAINER Masatoshi Hayashi <literalice@monochromeroad.com>
+MAINTAINER mhayashi <literalice@monochromeroad.com>
 
 # Install the required software
 ADD daftaupe-hugo-epel-7.repo /etc/yum.repos.d/
